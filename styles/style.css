@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+header{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #EEEEEE;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.link_menu{
+    display: flex;
+    align-items: center;
+}
+
+.link_menu ul{
+    justify-content: space-between;
+    width: 550px;
+
+}
+
+.link_menu img {
+    margin-right: 50px;
+}
+
+.account_menu{
+    display: flex;
+}
+
+.container .account_menu a {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.account_menu a i{
+    color: #707070;
+}
+
+.account_menu a:first-child{
+    margin-right: 60px;
+}
+
+.account_menu a:first-child i{
+    margin-right: 5px; 
+}
+
+.featured_products_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.featured_products_title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.featured_products{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;    
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.featured_products a{
+    color: #000;
+    text-decoration: none;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    border: solid 1px #EEEEEE;
+    margin-top: 50px;
+    width: 290px;
+    height: 400px;
+    padding: 20px;
+}
+
+.product_info p{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.price p{
+    color: #EF7460;
+    font-weight: bold;
+}
+
+.price p:first-child{
+    margin-right: 10px;
+}
+
+.price p:last-child{
+    font-size: 24px;
+}
+
+.buy_button{
+    margin-top: 10px;
+}
+
+.buy_button button{
+    width: 200px;
+    height: 50px;
+    background-color: #EF7460;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;    
+}
